@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <p id="number">0</p>
+        <div id="button-wrapper">
+            <input type="button" value="+1" onclick="add(1)" />
+            <input type="button" value="+10" onclick="add(10)" />
+            <input type="button" value="-1" onclick="subtract(1)" />
+            <input type="button" value="-10" onclick="subtract(10)" />
+            <input type="button" value="reset" onclick="reset()" />
+            <input type="text" value="" id="step" />
+            <input type="button" value="go" onclick="go()" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
